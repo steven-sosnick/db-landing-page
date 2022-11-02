@@ -16,7 +16,7 @@ import { Fragment, useState } from 'react';
 
 import { Dialog, Transition } from '@headlessui/react';
 
-export default function Example() {
+const PageHeading = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
@@ -109,4 +109,6 @@ export default function Example() {
       </div>
     </>
   );
-}
+};
+
+export default PageHeading;

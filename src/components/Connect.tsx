@@ -61,7 +61,7 @@ const footerNavigation = {
   ],
 };
 
-export default function Example() {
+const Connect = () => {
   return (
     <div className="bg-navy">
       <Popover as="header" className="relative z-10">
@@ -494,4 +494,5 @@ export default function Example() {
       </footer>
     </div>
   );
-}
+};
+export default Connect;
