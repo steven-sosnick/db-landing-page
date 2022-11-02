@@ -7,10 +7,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head>
-          {' '}
-          <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
