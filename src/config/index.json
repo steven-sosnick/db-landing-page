@@ -26,6 +26,9 @@
     "text": "Get started",
     "href": "#"
   },
+  "connect": {
+    "mainTitle": "Let's work together"
+  },
   "mainHero": {
     "title": "DraftBoard",
     "subtitle": "Democratize Recruiting",
