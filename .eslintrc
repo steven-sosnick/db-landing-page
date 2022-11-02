@@ -20,7 +20,9 @@
         "plugin:prettier/recommended"
       ],
       "parserOptions": {
-        "project": "./tsconfig.json"
+        "project": "./tsconfig.json",
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
       },
       "rules": {
         "prettier/prettier": [
