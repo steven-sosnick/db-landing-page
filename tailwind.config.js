@@ -1,6 +1,3 @@
-import { fontFamily as _fontFamily } from 'tailwindcss/defaultTheme';
-import { forms } from 'tailwindcss';
-
 export const mode = 'jit';
 export const purge = ['./src/**/*.{js,ts,jsx,tsx}'];
 export const darkMode = false;
@@ -25,9 +22,6 @@ export const theme = {
       tertiary: '#99a0a3',
       navy: '#131F32',
     },
-    fontFamily: {
-      sans: ['Inter var', ..._fontFamily.sans],
-    },
     animation: {
       vote: 'vote 1s ease-in-out',
     },
@@ -47,4 +41,5 @@ export const theme = {
   },
 };
 export const variants = {};
-export const plugins = [forms];
+// eslint-disable-next-line global-require
+export const plugins = [require('@tailwindcss/forms')];
